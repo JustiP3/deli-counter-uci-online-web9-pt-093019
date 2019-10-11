@@ -14,12 +14,12 @@ end
 
 #if line is not empty create a line message then print that message 
 
-  message = "The line is currently: "
+  message = "The line is currently:"
   position = 1 
   index = 0 
   while index < deli.length  do 
     name = deli[index]
-    message << "#{position}. #{name} "
+    message << " #{position}. #{name}"
     position += 1 
     index += 1 
 end
