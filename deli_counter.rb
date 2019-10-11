@@ -12,12 +12,18 @@ else
   message = "The line is currently: "
   puts message 
   position = 1 
-  deli.each do |x|
-    message = "#{position}: #{x} "
-    puts message 
+  index = 0 
+  while index < deli.size do 
+    name = deli[index]
+    message = "#{position}. #{name} "
+    puts message
     position += 1 
+    index += 1 
   end 
+ 
 end
+
+
 
 end
 
