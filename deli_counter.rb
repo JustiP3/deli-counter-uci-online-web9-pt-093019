@@ -4,16 +4,17 @@ def take_a_number(deli, name)
   puts "Welcome, #{name}. You are number #{position} in line."
 end
 
+
+
+
+
 def line(deli)
-  
   # if line is empty return empty message and return from method 
 if deli == [] 
   puts "The line is currently empty."
   return 
 end
-
 #if line is not empty create a line message then print that message 
-
   message = "The line is currently:"
   position = 1 
   index = 0 
@@ -25,9 +26,17 @@ end
 end
 
 puts message 
-
 end
 
+
+
+
+
 def now_serving(deli)
+  if deli == []
+    puts "The line is empty."
+    return 
+  end
+  
   
 end
