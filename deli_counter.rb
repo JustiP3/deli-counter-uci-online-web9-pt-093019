@@ -21,7 +21,7 @@ end
     puts message
     position += 1 
     index += 1 
-  end 
+ 
  
 end
 
