@@ -1,4 +1,5 @@
 def take_a_number(deli, name)
+  deli << name 
   
 end
 
