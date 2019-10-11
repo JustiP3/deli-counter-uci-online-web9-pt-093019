@@ -1,6 +1,6 @@
 def take_a_number(deli, name)
   deli << name 
-  
+  position = deli.index(name) + 1 
 end
 
 def line(deli)
