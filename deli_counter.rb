@@ -38,5 +38,7 @@ def now_serving(deli)
     return 
   end
   
+  person = deli.shift 
+  puts "Currently serving #{person}."
   
 end
