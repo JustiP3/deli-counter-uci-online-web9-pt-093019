@@ -10,11 +10,11 @@ if deli == []
   puts "The line is currently empty."
 else
   message = "The line is currently: "
-  print message 
+  puts message 
   position = 1 
   deli.each do |x|
     message = "#{position}: #{x} "
-    print message 
+    puts message 
     position += 1 
   end 
 end
