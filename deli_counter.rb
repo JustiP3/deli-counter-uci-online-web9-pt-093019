@@ -9,9 +9,10 @@ def line(deli)
 if deli == []
   puts "The line is currently empty."
 else
+  print "The line is currently: "
   position = 1 
   deli.each do |x|
-    puts "Wecome, #{x}. You are number #{position} in line."
+    print  "#{position}: #{x}."
     position += 1 
   end 
 end
