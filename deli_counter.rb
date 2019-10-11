@@ -8,7 +8,9 @@ def line(deli)
   
 if deli == []
   puts "The line is currently empty."
-else
+  return 
+end
+
   message = "The line is currently: "
   puts message 
   position = 1 
