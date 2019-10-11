@@ -15,7 +15,7 @@ end
   puts message 
   position = 1 
   index = 0 
-  while index < deli.size do 
+  while index < deli.length  do 
     name = deli[index]
     message = "#{position}. #{name} "
     puts message
