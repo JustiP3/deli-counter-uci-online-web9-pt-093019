@@ -5,8 +5,15 @@ def take_a_number(deli, name)
 end
 
 def line(deli)
+  
 if deli == []
   puts "The line is currently empty."
+else
+  position = 1 
+  deli.each do |x|
+    puts "Wecome, #{x}. You are number #{position} in line."
+    position += 1 
+  end 
 end
 
 end
